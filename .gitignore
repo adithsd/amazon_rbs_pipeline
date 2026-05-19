@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local Pipeline Data Traces (Blocks heavy simulation files)
+data/ingress/catalog_transactions_*.csv
+data/archive/*.csv
+spark-warehouse/
+
+# IDE and System Files
+.vscode/
+.DS_Store
+Thumbs.db
+get-pip.py
